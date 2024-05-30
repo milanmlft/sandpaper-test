@@ -1,5 +1,6 @@
 #------------------------------------------------------------
 # Values for this lesson.
+
 #------------------------------------------------------------
 
 # Which carpentry is this (swc, dc, lc, or cp)?
@@ -36,7 +37,7 @@ branch: 'main'
 contact: 'team@carpentries.org'
 
 # Generate PDFs of episodes?
-pdf: FALSE
+pdf: TRUE
 
 # Generate ipynb notebooks of episodes?
 ipynb: FALSE
@@ -64,21 +65,23 @@ ipynb: FALSE
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
+varnish: LearnToDiscover/varnish@milanmlft/single-episode-pdfs
+sandpaper: LearnToDiscover/sandpaper@milanmlft/single-episode-pdfs
 
