@@ -1,5 +1,6 @@
 #------------------------------------------------------------
 # Values for this lesson.
+
 #------------------------------------------------------------
 
 # Which carpentry is this (swc, dc, lc, or cp)?
@@ -64,17 +65,17 @@ ipynb: FALSE
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
