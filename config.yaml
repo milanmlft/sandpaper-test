@@ -37,7 +37,7 @@ branch: 'main'
 contact: 'team@carpentries.org'
 
 # Generate PDFs of episodes?
-pdf: FALSE
+pdf: TRUE
 
 # Generate ipynb notebooks of episodes?
 ipynb: FALSE
@@ -82,4 +82,6 @@ profiles:
 # This space below is where custom yaml items (e.g. pinning
 # sandpaper and varnish versions) should live
 
+varnish: LearnToDiscover/varnish@milanmlft/single-episode-pdfs
+sandpaper: LearnToDiscover/sandpaper@milanmlft/single-episode-pdfs
 
